@@ -1,0 +1,1 @@
+event_id,zone_id,pipe_id,approx_chainage_start_m,approx_chainage_end_m,latitude,longitude,discovery_timestamp,repair_start_timestamp,repair_end_timestamp,confirmation_method,leak_status,estimated_loss_value,loss_unit,source_record_id,verification_notes

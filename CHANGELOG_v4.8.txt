@@ -1,0 +1,13 @@
+LeakLogic AI 4.8 — Pipeline Diagnostic Card
+
+- Added a Pipeline diagnostic card to the Leakage detection workspace.
+- Displays selected measurement inlet flow, outlet flow, gross flow difference, and indicative gross volume imbalance over a user-selected duration.
+- Shows branch-level status, residual after entered storage/tap adjustments, meter uncertainty, screening z-score, and stable/full-pipe eligibility.
+- Adds a downloadable JSON diagnostic for the selected measurement.
+- Explicitly labels the volume as an estimate if the gross inlet/outlet difference were sustained; it is not automatically attributed to leakage.
+- Converts invalid spatial CSV content into an HTTP 400 validation response instead of an unhandled HTTP 500.
+
+Validation:
+- app.py and main.py compile successfully.
+- 15 existing unittest tests pass.
+- UI was code-checked but not interactively launched in a browser in this environment.

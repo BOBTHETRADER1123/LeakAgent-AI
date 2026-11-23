@@ -1,0 +1,6 @@
+source_id,location,publisher_url,evidence_type,pack_status,validation_scope
+nagpur_table1,Nagpur,https://doi.org/10.1007/s13201-018-0672-3,published_field_measurements,CSV_transcription_and_SQLite_included,Hydraulic_reference_only
+iit_bombay,India,https://zenodo.org/records/7162154,hydraulic_model,download_required,Model_geometry_and_scenarios
+borealis,Delhi_and_Bengaluru,https://doi.org/10.5683/SP3/QA0YQM,published_supply_schedules,download_required,Supply_cycle_timing_only
+hmwssb,Hyderabad,https://data.opencity.in/dataset/?organization=hyderabad-metropolitan-water-supply-and-sewerage-board-hmwssb,administrative_data,link_only,Local_context_only
+ceeri,Pilani,https://github.com/neelabhsinha/Leakage-Detection-in-Smart-Water-Distribution-Systems,restricted_physical_experiments,permission_required,Potential_controlled_leak_validation

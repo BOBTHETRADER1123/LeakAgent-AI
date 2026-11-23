@@ -1,0 +1,10 @@
+streamlit>=1.40,<2
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+pydantic>=2.9,<3
+langgraph>=0.2,<2
+langchain>=0.3,<2
+sentence-transformers>=3,<6
+PyMuPDF>=1.24,<2
+requests>=2.32,<3
+python-dotenv>=1,<2

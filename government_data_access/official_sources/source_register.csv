@@ -1,0 +1,8 @@
+source,organization,type,url,status_for_LeakLogic,limitations
+HMWSSB official website,Hyderabad Metropolitan Water Supply and Sewerage Board,Government utility,https://www.hyderabadwater.gov.in/,Primary data-request target,Operational SCADA exports not confirmed publicly downloadable
+HMWSSB OpenCity collection,HMWSSB datasets indexed by OpenCity,Public dataset index,https://data.opencity.in/dataset/?organization=hyderabad-metropolitan-water-supply-and-sewerage-board-hmwssb,Supplementary public data,Check each dataset; administrative records are not equivalent to pressure/flow SCADA
+National Water Data Portal,Ministry of Jal Shakti / NWIC,Government data portal,https://nwdp.nwic.gov.in/,Supplementary source,Check metadata; urban pipe-level leak labels not guaranteed
+Telangana Open Data Portal,Government of Telangana,Government data portal,https://data.telangana.gov.in/,Supplementary source,Check metadata and licence; pipeline sensor records not guaranteed
+IIT Bombay WaterGEMS model,Academic publication/archive,Hydraulic model,https://zenodo.org/records/7162154,Existing project supplemental source,Model data not verified government sensor observations
+Delhi-Bengaluru intermittent supply schedules,Academic dataset,Supply schedule archive,https://doi.org/10.5683/SP3/QA0YQM,Existing project supplemental source,Supply schedules not pressure/flow/leak ground truth
+Nagpur Ramnagar study,Published research,Field measurement transcription,https://doi.org/10.1007/s13201-018-0672-3,Existing project supplemental source,Published observations not government SCADA export or leak-labelled dataset

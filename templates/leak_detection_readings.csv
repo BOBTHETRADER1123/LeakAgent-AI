@@ -1,0 +1,4 @@
+branch_id,cycle_id,q_up_l_s,q_down_l_s,pipe_storage_change_l_s,branch_tap_l_s,meter_up_sigma_l_s,meter_down_sigma_l_s,full_pipe_flag,stable_window_verified
+DEMO-BRANCH-A,DEMO-CYCLE-001,12.5,10.2,0,0,0.3,0.3,true,true
+DEMO-BRANCH-A,DEMO-CYCLE-002,12.4,10.1,0,0,0.3,0.3,true,true
+DEMO-BRANCH-B,DEMO-CYCLE-001,8.0,7.9,0,0,0.2,0.2,true,true

@@ -1,0 +1,12 @@
+LeakLogic AI 4.4 — Whole-pipeline spatial screening
+
+- Added whole-pipeline mapping workspace.
+- Added spatial CSV template for synchronized flow measurements at stations along a pipeline.
+- Added adjacent-station interval flow-balance screening and repeated-cycle escalation.
+- Added chainage coordinate storage as integer millimetres and sparse interval reporting.
+- Added POST /spatial-detect API endpoint.
+- Added SQLite persistence for spatial diagnostic reports.
+- Added 200 km scale explanation: 200 billion millimetre coordinate positions are not materialized as rows.
+- Explicitly distinguishes millimetre coordinate representation from actual physical detection accuracy.
+- Actual localization is bounded by sensor spacing and requires field validation.
+- Existing RAG, SQLite, Hugging Face embeddings, optional OpenRouter, and no-FAISS architecture retained.

@@ -1,0 +1,11 @@
+LeakLogic AI 4.7 — BattLeDIM Leakage Reference Explorer
+
+- Added a leakage-reference explorer directly below the BattLeDIM import results.
+- Extracts contiguous positive leakage-outflow periods by year and pipe/link ID from the uploaded reference series.
+- Shows start/end timestamps, active five-minute samples, duration, peak reference outflow, and approximate integrated reference volume.
+- Adds per-pipe reference outflow time-series chart and downloadable event table.
+- Keeps parsed data in Streamlit session state across page reruns.
+- Explicitly distinguishes reference leakage periods from independent model detections; no detection accuracy is claimed.
+- Added automated tests for contiguous-event extraction and volume integration.
+
+Validation: 15 unittest tests passed; app.py and battledim_importer.py compile successfully.

@@ -1,0 +1,1 @@
+record_id,zone_id,pipe_id,station_id,timestamp,chainage_m,latitude,longitude,pressure_value,pressure_unit,flow_value,flow_unit,temperature_c,pump_state,valve_state,reservoir_level_m,supply_cycle_id,meter_accuracy,calibration_date,source_file,source_row

@@ -1,0 +1,11 @@
+field,meaning,required_or_optional,notes
+record_id,Unique source record identifier,Optional,Preserve source ID if supplied
+zone_id,Anonymized distribution zone,Required,Do not include customer identity
+pipe_id,Pipeline identifier,Required for spatial analysis,Use anonymized ID if needed
+station_id,Monitoring point identifier,Required,Must map consistently to chainage
+timestamp,Measurement timestamp,Required,Preserve timezone and original timestamp
+chainage_m,Distance from pipe reference origin in metres,Required for spatial mapping,Do not infer from station name
+pressure_value,Measured pressure,Preferred,Keep original unit
+flow_value,Measured flow,Preferred,Keep original unit
+supply_cycle_id,Supply-cycle identifier,Recommended,Needed for cross-cycle analysis
+meter_accuracy,Instrument accuracy or uncertainty,Recommended,Include units and confidence convention

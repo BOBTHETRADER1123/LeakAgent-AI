@@ -1,0 +1,13 @@
+LeakLogic AI 4.3 - primary leakage screening update
+
+- Added a first-class Leakage detection workspace to Streamlit.
+- Added CSV upload and a downloadable paired-flow template.
+- Added deterministic possible-leak screening based on unexplained positive flow residual and combined meter uncertainty.
+- Requires verified stable, full-pipe windows; escalates a branch only after signals in two distinct cycles.
+- Added FastAPI POST /detect endpoint.
+- Added branch summaries, row-level evidence, limitations and JSON report download.
+- Preserved local SQLite RAG, Hugging Face embeddings, optional OpenRouter LLM, and no-FAISS design.
+- Preserved the separate LangGraph hydraulic diagnosis workspace.
+- Added three detector unit tests. Full suite: 7 tests passed in the build environment.
+
+Important: CSV template values are illustrative demo values, not real Indian field data. This is a screening prototype, not a confirmed leak detector or validated accuracy claim.

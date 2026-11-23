@@ -1,0 +1,15 @@
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+rag_index.db*
+incidents.db*
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+government_data_access/HMWSSB/academic_data_request_letter.txt
